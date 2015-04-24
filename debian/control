@@ -1,0 +1,12 @@
+Source: ros-hydro-roslisp
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/roslisp
+Standards-Version: 3.9.2
+
+Package: ros-hydro-roslisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rosgraph-msgs, ros-hydro-roslang, ros-hydro-rospack, ros-hydro-std-srvs, sbcl
+Description: Lisp client library for ROS, the Robot Operating System.
