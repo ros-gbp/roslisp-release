@@ -1,3 +1,24 @@
+## roslisp (indigo) - 1.9.19-0
+
+The packages in the `roslisp` repository were released into the `indigo` distro by running `/usr/bin/bloom-release roslisp --track indigo --rosdistro indigo` on `Fri, 14 Aug 2015 07:09:39 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: https://github.com/ros-gbp/roslisp-release.git
+- rosdistro version: `1.9.18-0`
+- old version: `1.9.18-0`
+- new version: `1.9.19-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## roslisp (jade) - 1.9.18-0
 
 The packages in the `roslisp` repository were released into the `jade` distro by running `/usr/bin/bloom-release roslisp -t jade -r jade` on `Fri, 24 Apr 2015 06:51:29 -0000`
