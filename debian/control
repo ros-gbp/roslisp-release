@@ -1,0 +1,12 @@
+Source: ros-kinetic-roslisp
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/roslisp
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-roslisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rosgraph-msgs, ros-kinetic-roslang, ros-kinetic-rospack, ros-kinetic-std-srvs, sbcl
+Description: Lisp client library for ROS, the Robot Operating System.
