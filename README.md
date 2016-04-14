@@ -1,3 +1,26 @@
+## roslisp (indigo) - 1.9.20-0
+
+The packages in the `roslisp` repository were released into the `indigo` distro by running `/usr/bin/bloom-release roslisp --track indigo --rosdistro indigo` on `Thu, 14 Apr 2016 09:11:09 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: https://github.com/ros-gbp/roslisp-release.git
+- rosdistro version: `1.9.19-0`
+- old version: `1.9.19-0`
+- new version: `1.9.20-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## roslisp (kinetic) - 1.9.19-0
 
 The packages in the `roslisp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic roslisp` on `Fri, 11 Mar 2016 00:06:25 -0000`
