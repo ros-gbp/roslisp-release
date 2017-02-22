@@ -1,3 +1,26 @@
+## roslisp (lunar) - 1.9.20-0
+
+The packages in the `roslisp` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -r lunar -t lunar roslisp` on `Wed, 22 Feb 2017 22:45:38 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `None-0`
+- new version: `1.9.20-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## roslisp (kinetic) - 1.9.20-0
 
 The packages in the `roslisp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release roslisp --track kinetic --rosdistro kinetic` on `Thu, 14 Apr 2016 09:17:53 -0000`
