@@ -1,3 +1,26 @@
+## roslisp (melodic) - 1.9.21-0
+
+The packages in the `roslisp` repository were released into the `melodic` distro by running `/usr/bin/bloom-release roslisp --track melodic --rosdistro melodic --new-track` on `Wed, 31 Jan 2018 13:16:50 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.21-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.2`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.40`
+
+
 ## roslisp (lunar) - 1.9.21-0
 
 The packages in the `roslisp` repository were released into the `lunar` distro by running `/usr/bin/bloom-release roslisp --track lunar --rosdistro lunar` on `Fri, 14 Jul 2017 16:49:09 -0000`
