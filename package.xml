@@ -1,9 +1,8 @@
 <package>
   <name>roslisp</name>
-  <version>1.9.21</version>
+  <version>1.9.22</version>
   <description>Lisp client library for ROS, the Robot Operating System.</description>
-  <maintainer email="georg.bartels@cs.uni-bremen.de">Georg Bartels</maintainer>
-  <maintainer email="moesenle@cs.tum.edu">Lorenz Moesenlechner</maintainer>
+  <maintainer email="kazhoyan@cs.uni-bremen.de">Gayane Kazhoyan</maintainer>
   <license>BSD</license>
 
   <author>Bhaskara Marthi</author>
