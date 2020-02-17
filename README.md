@@ -1,3 +1,26 @@
+## roslisp (kinetic) - 1.9.23-1
+
+The packages in the `roslisp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release roslisp --rosdistro kinetic --track kinetic --new-track` on `Mon, 17 Feb 2020 22:08:53 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: https://github.com/ros-gbp/roslisp-release.git
+- rosdistro version: `1.9.21-0`
+- old version: `1.9.22-1`
+- new version: `1.9.23-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.1`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## roslisp (kinetic) - 1.9.22-1
 
 The packages in the `roslisp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release roslisp --rosdistro kinetic` on `Mon, 17 Feb 2020 22:01:42 -0000`
