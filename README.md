@@ -1,3 +1,26 @@
+## roslisp (noetic) - 1.9.24-1
+
+The packages in the `roslisp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release roslisp --rosdistro noetic --track noetic --new-track` on `Mon, 17 Feb 2020 22:19:08 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.24-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.1`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## roslisp (melodic) - 1.9.24-1
 
 The packages in the `roslisp` repository were released into the `melodic` distro by running `/usr/bin/bloom-release roslisp --rosdistro melodic --track melodic --new-track` on `Mon, 17 Feb 2020 22:13:58 -0000`
