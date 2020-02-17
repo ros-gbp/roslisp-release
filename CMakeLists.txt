@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(roslisp)
 
 find_package(catkin REQUIRED)
 catkin_package(CFG_EXTRAS roslisp-extras.cmake)
 
-add_subdirectory(env-hooks)
+catkin_add_env_hooks(99.roslisp SHELLS sh DIRECTORY ${PROJECT_SOURCE_DIR}/env-hooks)
 
 foreach(dir
     load-manifest
@@ -20,9 +20,6 @@ foreach(dir
       PATTERN "genmsg_lisp.py" EXCLUDE)
 endforeach()
 
-# install legacy infrastructure needed by rosbuild
-install(FILES manifest.xml
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 install(DIRECTORY scripts
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
     USE_SOURCE_PERMISSIONS
