@@ -1,0 +1,12 @@
+Source: ros-melodic-roslisp
+Section: misc
+Priority: optional
+Maintainer: Gayane Kazhoyan <kazhoyan@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/roslisp
+Standards-Version: 3.9.2
+
+Package: ros-melodic-roslisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ros-environment, ros-melodic-rosgraph-msgs, ros-melodic-roslang, ros-melodic-rospack, ros-melodic-std-srvs, sbcl
+Description: Lisp client library for ROS, the Robot Operating System.
