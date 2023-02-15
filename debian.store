@@ -1,1 +1,1 @@
-{"trim": "", "base": "0542345", "trimbase": "", "parent": "debian/noetic/roslisp", "previous": "92dba33"}
+{"base": "0683043", "parent": "debian/noetic/roslisp", "previous": "c3cbbc6", "trim": "", "trimbase": ""}
