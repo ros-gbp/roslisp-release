@@ -1,0 +1,12 @@
+Source: ros-noetic-roslisp
+Section: misc
+Priority: optional
+Maintainer: Gayane Kazhoyan <kazhoyan@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/roslisp
+Standards-Version: 3.9.2
+
+Package: ros-noetic-roslisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-ros-environment, ros-noetic-rosgraph-msgs, ros-noetic-roslang, ros-noetic-rospack, ros-noetic-std-srvs, sbcl
+Description: Lisp client library for ROS, the Robot Operating System.
